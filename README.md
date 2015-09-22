@@ -34,4 +34,5 @@ julia> x
 
 ## TODO
 
+-  Don't rewrite non-numeric indexes or numeric indexes into Associatives
 -  Rewrite BoundsErrors
