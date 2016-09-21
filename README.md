@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/simonster/TwoBasedIndexing.jl.svg?branch=master)](https://travis-ci.org/simonster/TwoBasedIndexing.jl)
 
-This package implements two-based indexing in Julia. It requires a version of Julia that includes [#13260](https://github.com/JuliaLang/julia/pull/13260) if you want to use two-based indexing at the REPL.
+This package implements two-based indexing in Julia. Enabling two-based indexing affects only code in your module, so code from other modules/packages remains functional. This makes it easy to gradually transition your codebase from obsolete one-based indexing to two-based indexing.
 
 ## Usage
 
